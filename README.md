@@ -1,5 +1,5 @@
-huntprod/docker-asm
-===================
+huntprod/asm
+============
 
 This is a small, Alpine-based Docker image for doing assembly
 language development for both x86 (32-bit) and x86-64 (64-bit)
@@ -38,4 +38,4 @@ You usually want to mount a data directory.
 
     docker run -it \
                -v ~/asm:/code \
-               huntprod/docker-asm
+               huntprod/asm

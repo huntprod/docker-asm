@@ -1,5 +1,7 @@
+NAME := asm
+
 build:
-	docker build -t huntprod/docker-asm .
+	docker build -t huntprod/$(NAME) .
 
 pub: build
-	docker push huntprod/docker-asm
+	docker push huntprod/$(NAME)
